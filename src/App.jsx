@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Main>
         <Switch>
-          <Route exact path="/ReactAppWorldCountries/">
+          <Route exact path="/">
             <HomePage countries={countries} setCountries={setCountries} />
           </Route>
           <Route path="/country/:name" component={Details} />
